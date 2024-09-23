@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e422c7de22e44149f21dfbf80d23a3c" Name="Diagram1">
+        <EntityTypeShape EntityType="saludDBModel.citas" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="saludDBModel.horarios" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="saludDBModel.medicos" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="saludDBModel.FK__citas__medico_id__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="saludDBModel.FK__horarios__medico__412EB0B6" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="saludDBModel.usuarios" Width="1.5" PointX="0.75" PointY="4.25" />
+        <AssociationConnector Association="saludDBModel.FK__citas__usuario_i__5CD6CB2B" />
+        <AssociationConnector Association="saludDBModel.FK__medicos__usuario__571DF1D5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
